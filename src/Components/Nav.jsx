@@ -24,7 +24,7 @@ const Nav = () => {
                     </ul>
                 </nav>
             </header>
-
+            <img src="../assets/g" alt="" />
             {/* ----------------------------- HERO ------------------------ */}
             <div className="hero">
                 <div className="tag tag1">
