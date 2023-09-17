@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+li,
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    font-weight: bold;
+    display: inline-block;
+    padding: 9px 15px;
+}
+
+.nav-links li a {
+    transition: all 03s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: blue
+}
+
+
+/* ----------------------HERO---------------------- */
+.hero .tag h2.blue {
+    color: #4C9DD1;
+}
+
+.hero .tag {
+    margin-left: 144px;
+    margin-top: 5%;
+}
+
+
+/* -------------- SUB HERO ------------------- */
+.hero tag2 two {
+    background-color: #9DD0E3;
+}
+
+.hero .tag2 p.one h3 {
+    margin-left: 16px;
+    margin-top: 8.6%;
+}
+
+.hero .tag2 p.one h3 span {
+    color: #021351;
+}
+
+.hero .tag2 p.two h3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 66%;
+    margin-top: 17px;
+    text-align: center;
+    margin-bottom: -8;
+    color: #000;
+}
+
+.hero button {
+    display: inline-flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+
+    /* Background and border */
+    border-radius: 19px;
+    border: 1px solid #FFF;
+    background: linear-gradient(97deg, #9DD0E3 0%, #0B365F 100%);
+    box-shadow: 8px 13px 17px 0px rgba(0, 0, 0, 0.56);
+
+    /* text */
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    /* Alignment */
+    margin-left: 17%;
+}
