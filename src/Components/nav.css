@@ -6,6 +6,27 @@
     margin: 0;
     padding: 0;
     background-color: #fff;
+    /* overflow: hidden; */
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(97deg, #9DD0E3 0%, #0B365F 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(97deg, #1b7fa4 0%, #0a2d4e 100%);
 }
 
 li,
@@ -91,7 +112,7 @@ header {
 
     /* Background and border */
     border-radius: 19px;
-    border: 1px solid #FFF;
+    /* border: 1px solid #FFF; */
     background: linear-gradient(97deg, #9DD0E3 0%, #0B365F 100%);
     box-shadow: 8px 13px 17px 0px rgba(0, 0, 0, 0.56);
 
@@ -106,4 +127,40 @@ header {
 
     /* Alignment */
     margin-left: 17%;
+    border: none;
+}
+
+
+
+/* ...................... FEATURES ..................... */
+.features {
+    display: inline-block;
+    font-family: Poppins;
+}
+
+.features .features-content {
+    /* display: inline-block; */
+    width: 40%;
+    /* margin-left: 37%; */
+    background-color: #9DD0E3;
+}
+
+.features .features-content ul {
+    margin-left: 30px;
+}
+
+.features .features-content h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* .............. FOOTER ............................ */
+footer {
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(97deg, #4e717c 0%, #203950 100%);
 }
